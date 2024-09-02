@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body>
+    <div id="wrapper">
+      <!-- Header -->
+      <!-- Note: The "styleN" class below should match that of the banner element. -->
+      <header id="header" class="alt style2">
+        <a href="index.html" class="logo"
+          ><strong>Rohan Nethala</strong> <span>Junior at RPI</span></a
+        >
+
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header>
+
+            <nav id="menu">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">Landing</a></li>
+          <li><a href="experience.html">My Experience</a></li>
+          <li><a href="elements.html">Elements</a></li>
+        </ul>
+      </nav>
+
+
+      <!-- Banner -->
+      <!-- Note: The "styleN" class below should match that of the header element. -->
+      <section id="banner" class="style2">
+        <div class="inner">
+          <span class="image">
+            <img src="images/pic07.jpg" alt="" />
+          </span>
+          <header class="major">
+            <h1>My Portfolio</h1>
+          </header>
+          <div class="content">
+            <p>
+              Here are some of the projects that I've worked on over the course of my coding journey.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+    <section>
+      <div class="container">
+        <div class="carousel">
+          <input type="radio" name="slides" checked="checked" id="slide-1" />
+          <input type="radio" name="slides" id="slide-2" />
+          <input type="radio" name="slides" id="slide-3" />
+          <input type="radio" name="slides" id="slide-4" />
+          <input type="radio" name="slides" id="slide-5" />
+          <input type="radio" name="slides" id="slide-6" />
+
+          <ul class="carousel__slides">
+            
+            <li class="carousel__slide">
+              <figure>
+                <div class="project" style="bottom: 600px;">
+                  <p  style="font-size: 80px; margin-bottom: 20px;">
+                    Pantry Tracker App - It allows users to do CRUD and
+                    inventory management with foods, using Firebase
+                  </p>
+                  <video
+                    controls
+                    src="videos/Pantry Tracker.mp4"
+                    alt="My Pantry Tracker project - allows users to do inventory management with Firebase"
+                  ></video>
+
+                </div>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div class="project">
+                  <p style="font-size: 80px; margin-bottom: 20px;">
+                    AI Customer Support App - allows users to interact with an
+                    AI-based customer support chatbot
+                  </p>
+                  <video
+                    controls
+                    src="videos/AI Customer Support.mp4"
+                    alt="My AI Customer Support App - allows users to interact with an AI-based customer support chatbot"
+                  ></video>
+
+                </div>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div class="project">
+                  <p  style="font-size: 80px; margin-bottom: 20px;">
+                    HackRPI 2022 - the Rocketeers: We predicted the future of space companies'
+                    stocks using machine learning
+                  </p>
+                  <video
+                    controls
+                    src="videos/HackRPI 2022 - The Rocketeers.mp4"
+                    alt="
+                    HackRPI 2022 - the Rocketeers: Our team's project for the
+                    hackathon, where we predicted the future of space companies'
+                    stocks using machine learning"
+                  ></video>
+
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Steve Carter</span>
+                </figcaption>
+              </figure>
+            </li>
+            
+          </ul>
+   <ul class="carousel__thumbnails">
+            <li >
+              <label for="slide-1"
+                ><img src="images/Screenshot (249).png" alt=""
+              /></label>
+            </li>
+            <li>
+              <label for="slide-2"
+                ><img src="images/Screenshot (250).png" alt=""
+              /></label>
+            </li>
+            <li>
+              <label for="slide-3"
+                ><img src="images/Screenshot (251).png" alt=""
+              /></label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
