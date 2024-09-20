@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="assets/css/portfolio.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
-        <noscript
+    <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
   </head>
-  <body>
+  <body class="is-preload">
+    <!-- Wrapper -->
     <div id="wrapper">
       <!-- Header -->
       <!-- Note: The "styleN" class below should match that of the banner element. -->
@@ -18,21 +26,19 @@
         <a href="index.html" class="logo"
           ><strong>Rohan Nethala</strong> <span>Junior at RPI</span></a
         >
-
         <nav>
           <a href="#menu">Menu</a>
         </nav>
       </header>
 
-            <nav id="menu">
+      <!-- Menu -->
+      <nav id="menu">
         <ul class="links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="aboutme.html">Landing</a></li>
-          <li><a href="experience.html">My Experience</a></li>
-          <li><a href="elements.html">Elements</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="elements.html">My Projects</a></li>
         </ul>
       </nav>
-
 
       <!-- Banner -->
       <!-- Note: The "styleN" class below should match that of the header element. -->
@@ -45,102 +51,284 @@
             <h1>My Portfolio</h1>
           </header>
           <div class="content">
-            <p>
-              Here are some of the projects that I've worked on over the course of my coding journey.
-            </p>
+            <p></p>
           </div>
         </div>
       </section>
 
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one">
+          <div class="inner">
+            <header class="major">
+              <h2>What I've done</h2>
+            </header>
+            <p>
+              I've worked on numerous interesting coding projects over the past
+              couple years which have given me valuable experience in various
+              different niches within computer science. From app development to
+              machine learning, to full-stack web development and even AI APIs,
+              I've gained numerous skillsets that have helped me greatly thanks
+              to these projects. You can see more of the things that I've worked
+              on on my GitHub page.
+            </p>
+          </div>
+        </section>
 
-    <section>
-      <div class="container">
-        <div class="carousel">
-          <input type="radio" name="slides" checked="checked" id="slide-1" />
-          <input type="radio" name="slides" id="slide-2" />
-          <input type="radio" name="slides" id="slide-3" />
-          <input type="radio" name="slides" id="slide-4" />
-          <input type="radio" name="slides" id="slide-5" />
-          <input type="radio" name="slides" id="slide-6" />
+        <!-- Two -->
+        <section id="two" class="spotlights">
+          <section>
+            <a
+              href="https://devpost.com/software/hackrpi-2022-the-rocketeers"
+              class="image"
+            >
+              <img
+                src="images/Screenshot (251).png"
+                alt=""
+                data-position="center center"
+                class="origin-image"
+              />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>Space Company Stock Predictor - HackRPI Hackathon</h3>
+                </header>
+                <p>
+                  At a hackathon at my college in fall 2022, me and my team
+                  built a Python program that predicts the future of space
+                  companies' stocks using machine learning on Google Search
+                  Trends. We used HTML and CSS for the front-end, and used NumPy
+                  and Pandas for the data extraction and scrubbing. I really
+                  developed my leadership skills by spearheading the development
+                  of this project in less than 24 hours, and we ended up winning
+                  an award at a hackathon -- The Best Data Science Hack Award!
+                </p>
+                <ul class="actions">
+                  <li>
+                    <a
+                      href="https://devpost.com/software/hackrpi-2022-the-rocketeers"
+                      class="button"
+                      >Learn more</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section>
+            <a href="" class="image">
+              <img src="images/discord.jpg" alt="" data-position="top center" />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>Discord Clone w/ Real-Time Chat and Video</h3>
+                </header>
+                <p>
+                  Spearheaded the development of a full-stack Discord clone
+                  where users can create servers, invite friends to them with
+                  working invite links, and can conduct real-time video and
+                  audio calls using WebRTC technology. Uses AWS Lambda,
+                  WebSocket service, and DynamoDB for the backend API, and React
+                  and TailwindCSS for front end.
+                </p>
+                <ul class="actions">
+                  <li>
+                    <a href="" class="button">Learn more</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section>
+            <a href="" class="image">
+              <img
+                src="images/MRI_of_Human_Brain.jpg"
+                alt=""
+                data-position="top center"
+              />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>Brain Tumor Classification with Neural Networks</h3>
+                </header>
+                <p>
+                  Built an end-to-end pipeline with 10,000 rows of U.S. Bank
+                  Customer data from Kaggle to predict how likely a customer is
+                  to churn, training 5 different machine learning models (Random
+                  Forest, XGBoost, Catering to Neighbors, etc.) and using Llama
+                  3.1 to make these predictions. Worked with team of 3 members
+                  and was mentored by professional software engineer throughout
+                  development.
+                </p>
+                <ul class="actions">
+                  <li>
+                    <a href="" class="button">Learn more</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section>
+            <a class="image">
+              <img
+                src="images/pg_jnj_compare.png"
+                alt=""
+                data-position="25% 25%"
+              />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>Automated Financial Analysis App using LLMs</h3>
+                </header>
+                <p>
+                  This is my favorite project that I've ever made. Here, I used
+                  RAG on a financial dataset, web scraping, and sentiment
+                  extraction from news articles to generate quick stock reports
+                  so users don't have to spend hours researching stocks to no
+                  avail. Users can enter what kinds of stocks their looking for,
+                  and the program will use RAG to find the best stocks in their
+                  desired category, along with modeling each stock's normalized
+                  stock price history and providing an AI-generated stock
+                  comparison summary. Also contains sentiment analysis bar
+                  charts for each stock as well as a radar for modeling stock
+                  health and growth potential.
+                </p>
+                <ul class="actions">
+                  <li><a class="button">Learn more</a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </section>
 
-          <ul class="carousel__slides">
-            
-            <li class="carousel__slide">
-              <figure>
-                <div class="project" style="bottom: 600px;">
-                  <p  style="font-size: 80px; margin-bottom: 20px;">
-                    Pantry Tracker App - It allows users to do CRUD and
-                    inventory management with foods, using Firebase
-                  </p>
-                  <video
-                    controls
-                    src="videos/Pantry Tracker.mp4"
-                    alt="My Pantry Tracker project - allows users to do inventory management with Firebase"
-                  ></video>
+        <!-- Three -->
+        <section id="three">
+          <div class="inner">
+            <header class="major">
+              <h2>Contact Me</h2>
+            </header>
+            <p>
+              You can use the form below to send me a personalized message via
+              email, or to visit my social media profiles.
+            </p>
+            <ul class="actions"></ul>
+          </div>
+        </section>
+      </div>
 
+      <!-- Contact -->
+      <section id="contact">
+        <div class="inner">
+          <section>
+            <form method="post" action="#">
+              <div class="fields">
+                <div class="field half">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" />
                 </div>
-              </figure>
-            </li>
-            <li class="carousel__slide">
-              <figure>
-                <div class="project">
-                  <p style="font-size: 80px; margin-bottom: 20px;">
-                    AI Customer Support App - allows users to interact with an
-                    AI-based customer support chatbot
-                  </p>
-                  <video
-                    controls
-                    src="videos/AI Customer Support.mp4"
-                    alt="My AI Customer Support App - allows users to interact with an AI-based customer support chatbot"
-                  ></video>
-
+                <div class="field half">
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email" />
                 </div>
-              </figure>
-            </li>
-            <li class="carousel__slide">
-              <figure>
-                <div class="project">
-                  <p  style="font-size: 80px; margin-bottom: 20px;">
-                    HackRPI 2022 - the Rocketeers: We predicted the future of space companies'
-                    stocks using machine learning
-                  </p>
-                  <video
-                    controls
-                    src="videos/HackRPI 2022 - The Rocketeers.mp4"
-                    alt="
-                    HackRPI 2022 - the Rocketeers: Our team's project for the
-                    hackathon, where we predicted the future of space companies'
-                    stocks using machine learning"
-                  ></video>
-
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" rows="6"></textarea>
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Steve Carter</span>
-                </figcaption>
-              </figure>
-            </li>
-            
-          </ul>
-   <ul class="carousel__thumbnails">
-            <li >
-              <label for="slide-1"
-                ><img src="images/Screenshot (249).png" alt=""
-              /></label>
+              </div>
+              <ul class="actions">
+                <li>
+                  <input type="submit" value="Send Message" class="primary" />
+                </li>
+                <li><input type="reset" value="Clear" /></li>
+              </ul>
+            </form>
+          </section>
+          <section class="split">
+            <section>
+              <div class="contact-method">
+                <span class="icon solid alt fa-envelope"></span>
+                <h3>Email</h3>
+                <a href="rohannethala37@gmail.com">rohannethala37@gmail.com</a>
+              </div>
+            </section>
+            <section>
+              <div class="contact-method">
+                <span class="icon solid alt fa-phone"></span>
+                <h3>Phone</h3>
+                <span>(860) 471-5688</span>
+              </div>
+            </section>
+            <section>
+              <div class="contact-method">
+                <span class="icon solid alt fa-home"></span>
+                <h3>Address</h3>
+                <span
+                  >305 Paxton Way<br />
+                  Glastonbury, CT 06033<br />
+                  United States of America</span
+                >
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <ul class="icons">
+            <li>
+              <a
+                href="https://x.com/NethalaRohan"
+                class="icon brands alt fa-twitter"
+                ><span class="label">X</span></a
+              >
             </li>
             <li>
-              <label for="slide-2"
-                ><img src="images/Screenshot (250).png" alt=""
-              /></label>
+              <a
+                href="https://www.facebook.com/rohan0nethala/"
+                class="icon brands alt fa-facebook-f"
+                ><span class="label">Facebook</span></a
+              >
             </li>
             <li>
-              <label for="slide-3"
-                ><img src="images/Screenshot (251).png" alt=""
-              /></label>
+              <a
+                href="https://www.instagram.com/rohannethala/"
+                class="icon brands alt fa-instagram"
+                ><span class="label">Instagram</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/RohanNethala"
+                class="icon brands alt fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/rohan-nethala/"
+                class="icon brands alt fa-linkedin-in"
+                ><span class="label">LinkedIn</span></a
+              >
             </li>
           </ul>
         </div>
-      </div>
-    </section>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
